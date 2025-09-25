@@ -38,3 +38,8 @@ addTaskBtn.addEventListener("click", addTask);
 clearCompletedBtn.addEventListener("click", clearCompletedTasks);
 clearAllTasksBtn.addEventListener("click",clearAllTasks)
 displayTasks();
+
+document.addEventListener("mousemove", function(e) {
+  const tag = document.querySelector(".moon-cursor");
+  tag.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
+});
