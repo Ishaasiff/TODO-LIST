@@ -17,4 +17,4 @@ It allows users to easily manage their daily tasks in an interactive way.
 
 ## 📸 Demo Preview
 Here’s how the To-Do List app looks:
-![Demo Screenshot](images/weblook.png)
+![Demo Screenshot](images/todoweb.png)
